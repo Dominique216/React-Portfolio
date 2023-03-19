@@ -15,18 +15,22 @@
 }
 
 .skills-circle {
+    /* height: 100%;
+    width: 50%; */
     /* margin-top: 10%; */
-    height: 95vh;
-    width: 60vw;
+    height: 600px;
+    width: 600px;
     /* height: fit-content;
     width: fit-content; */
     border: #338457 20px solid;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     margin: auto;
     display: grid;
     justify-content: center;
     align-items: center;
 }
+
+
 
 .center {
     width: 3%;
@@ -40,27 +44,69 @@
 
 .item {
     animation: spinAround 6s linear infinite;
-    height: 10%;
+    /* height: 10%; */
   }
   .item2 {
     animation: spinAround2 13s linear infinite;
-    height: 10%;
+    /* height: 10%; */
   }
 
-  /* @keyframes spinAround {
+    @keyframes spinAround {
+  from {
+    transform: rotate(0deg) translate(15vh);
+  }
+  to {
+    transform: rotate(360deg) translate(15vh);
+  }
+}
+
+@keyframes spinAround2 {
+  from {
+    transform: rotate(0deg) translate(25vh);
+  }
+  to {
+    transform: rotate(360deg) translate(25vh);
+  }
+}
+
+  @media screen and (min-width: 768px) { 
+    @keyframes spinAround {
+  from {
+    transform: rotate(0deg) translate(12vh);
+  }
+  to {
+    transform: rotate(360deg) translate(12vh);
+  }
+}
+
+@keyframes spinAround2 {
+  from {
+    transform: rotate(0deg) translate(30vh);
+  }
+  to {
+    transform: rotate(360deg) translate(30vh);
+  }
+}
+}
+
+  @media screen and (min-width: 1024px) { 
+      @keyframes spinAround {
     from {
-      transform: rotate(0deg) translate(15vh);
+      transform: rotate(0deg) translate(10vh);
     }
     to {
-      transform: rotate(360deg) translate(15vh);
+      transform: rotate(360deg) translate(10vh);
     }
   }
-  
+
   @keyframes spinAround2 {
     from {
-      transform: rotate(0deg) translate(35vh);
+      transform: rotate(0deg) translate(25vh);
     }
     to {
-      transform: rotate(360deg) translate(35vh);
+      transform: rotate(360deg) translate(25vh);
     }
-  } */
+  }
+  }
+
+  

@@ -4,8 +4,8 @@
 
 .info-box {
     /* display:flex; */
-    height: 45%;
-    width: 70%;
+    /* height: 45%;
+    width: 70%; */
     background-color: #aaf683;
     padding: 3%;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -38,8 +38,8 @@
     width:30%;
     border-radius: 50%;
     background-color: #FF9B85;
-    margin-left: 70%;
-    margin-top: -10%;
+    /* margin-left: 70%;
+    margin-top: -10%; */
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
