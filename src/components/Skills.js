@@ -6,8 +6,29 @@ function Skills() {
     AOS.init()
     return (
         <div id="skills" className="skills-section">
-            <h3 className="skills-title" data-aos="fade-up"> Skills and Languages</h3>
-            <div data-aos="fade-up" className="skills-circle rounded-full">
+            <h3 className="skills-title"> Skills and Languages</h3>
+            <div className="flex flex-row w-5/6 mx-auto">
+            
+            <ul className="ml-8 font-light text-dgreen">
+                <li><h2 className="text-xl underline">Front End</h2></li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Tailwind</li>
+                <li>Bootstrap</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+                <li>Handlebars</li>
+                <li>React</li>
+                <li>Material UI</li>
+                <li>Figma</li>
+                <li><h2 className="text-xl underline mt-5">Other Skills</h2></li>
+                <li>GitHub</li>
+                <li>Third Part Apis</li>
+                <li>Figma</li>
+                <li>Heroku</li>
+                
+            </ul>
+            <div className="skills-circle rounded-full">
                 <div className="center mx-auto"></div>
                 <img className='item w-1/5 mx-auto p-1' style={{animationDelay: "-1s"}} alt="html icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
                 <img className='item w-1/5 mx-auto  p-1' style={{animationDelay: "-2s"}} alt="css icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
@@ -28,6 +49,24 @@ function Skills() {
                 <img className='item2 w-1/5 mx-auto  p-1' style={{animationDelay: "-17s"}} alt="jQuery icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg" />
                 <img className='item2 w-1/5 mx-auto  p-1' style={{animationDelay: "-18s"}} alt="npm icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
                 <img className='item2 w-1/5 mx-auto  p-1' style={{animationDelay: "-19s"}} alt="vscode icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" />
+            </div>
+            
+            <ul className="font-light text-dgreen">
+                <li><h2 className="text-xl underline">Back End</h2></li>
+                <li>Node</li>
+                <li>Express</li>
+                <li>MySQL</li>
+                <li>Sequelize</li>
+                <li>MongoDB</li>
+                <li>Mongoose</li>
+                <li><h2 className="text-xl underline mt-5">Concepts</h2></li>
+                <li>Object Oriented Programing</li>
+                <li>Objec-Relational Mapping</li>
+                <li>Model-View-Controller</li>
+                <li>Progressive web Applications</li>
+                <li>MERN Applications</li>
+
+            </ul>
             </div>
             <div className="h-48"></div>
         </div>

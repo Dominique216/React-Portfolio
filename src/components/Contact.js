@@ -29,16 +29,16 @@ function Contact() {
               
             placement="top">
                 <PopoverHandler>
-                    <button><FontAwesomeIcon icon={faPhone} /></button>
+                    <button className="hover:text-lgreen"><FontAwesomeIcon icon={faPhone} /></button>
                 </PopoverHandler>
                 <PopoverContent>
                     <span className="bg-dgreen p-1 text-tan rounded-lg">903-373-4742</span>
                 </PopoverContent>
             </Popover> 
-                    <a href="mailto:raquel_0216@yahoo.com"  target="_blank" rel="noreferrer"><button><FontAwesomeIcon icon={faEnvelope} /></button></a>
-                    <a href=""  target="_blank" rel="noreferrer"><button><FontAwesomeIcon icon={faFilePdf} /></button></a>
-                    <a href="https://github.com/Dominique216"  target="_blank" rel="noreferrer"><button><FontAwesomeIcon icon={faGithub}  /></button></a>
-                    <a href="https://www.linkedin.com/in/dominique-nix-152361263/" target="_blank" rel="noreferrer"><button><FontAwesomeIcon icon={faLinkedin} /></button></a>
+                    <a className="hover:text-lgreen" href="mailto:raquel_0216@yahoo.com"  target="_blank" rel="noreferrer"><button><FontAwesomeIcon icon={faEnvelope} /></button></a>
+                    <a className="hover:text-lgreen" href=""  target="_blank" rel="noreferrer"><button><FontAwesomeIcon icon={faFilePdf} /></button></a>
+                    <a className="hover:text-lgreen" href="https://github.com/Dominique216"  target="_blank" rel="noreferrer"><button><FontAwesomeIcon icon={faGithub}  /></button></a>
+                    <a className="hover:text-lgreen" href="https://www.linkedin.com/in/dominique-nix-152361263/" target="_blank" rel="noreferrer"><button><FontAwesomeIcon icon={faLinkedin} /></button></a>
             </div>
             <div className="h-48"></div>
         </div>

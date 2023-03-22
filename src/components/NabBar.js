@@ -37,9 +37,9 @@ import logo from '../styles/logo.png';
         as="li"
         variant="small"
         // color="#338457"
-        className="p-1 font-normal"
+        className="p-1 text-xl"
       >
-        <a href="#about" className="flex items-center">
+        <a href="#about" className="flex items-center hover:border-b-2 border-dgreen">
           About
         </a>
       </Typography>
@@ -47,9 +47,9 @@ import logo from '../styles/logo.png';
         as="li"
         variant="small"
         // color="#338457"
-        className="p-1 font-normal"
+        className="p-1 text-xl"
       >
-        <a href="#skills" className="flex items-center">
+        <a href="#skills" className="flex items-center hover:border-b-2 border-dgreen">
           Skills
         </a>
       </Typography>
@@ -57,9 +57,9 @@ import logo from '../styles/logo.png';
         as="li"
         variant="small"
         // color="#338457"
-        className="p-1 font-normal"
+        className="p-1 text-xl"
       >
-        <a href="#works" className="flex items-center">
+        <a href="#works" className="flex items-center hover:border-b-2 border-dgreen">
           Works
         </a>
       </Typography>
@@ -67,9 +67,9 @@ import logo from '../styles/logo.png';
         as="li"
         variant="small"
         // color="#338457"
-        className="p-1 font-normal"
+        className="p-1 text-xl"
       >
-        <a href="#contact" className="flex items-center">
+        <a href="#contact" className="flex items-center hover:border-b-2 border-dgreen">
           Contact
         </a>
       </Typography>
@@ -82,9 +82,9 @@ import logo from '../styles/logo.png';
         <button className="flex items-center">
         <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md px-3 py-2 text-sm shadow-sm ring-1 ring-inset ring-dgreen hover:bg-gray-50">
+        <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md px-3 py-2 text-xl shadow-sm ring-1 ring-inset ring-dgreen hover:ring-4">
           Links
-          <ChevronDownIcon className="-mr-1 h-5 w-5" aria-hidden="true" />
+          <ChevronDownIcon className="-mr-1 h-5 w-5 my-auto" aria-hidden="true" />
         </Menu.Button>
       </div>
 
@@ -107,7 +107,7 @@ import logo from '../styles/logo.png';
                 rel="noreferrer"
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm  hover:bg-lgreen'
+                    'block px-4 py-2 text-sm hover:border-b-2 border-dgreen'
                   )}
                 >
                   <FontAwesomeIcon icon={faGithub}  /> GitHub
@@ -122,7 +122,7 @@ import logo from '../styles/logo.png';
                 rel="noreferrer"
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm  hover:bg-lgreen'
+                    'block px-4 py-2 text-sm hover:border-b-2 border-dgreen'
                   )}
                 >
                   <FontAwesomeIcon icon={faLinkedin}  /> LinkedIn
@@ -135,7 +135,7 @@ import logo from '../styles/logo.png';
                   href="#"
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm  hover:bg-lgreen'
+                    'block px-4 py-2 text-sm hover:border-b-2 border-dgreen'
                   )}
                 >
                   <FontAwesomeIcon icon={faFilePdf}  /> Resume
@@ -153,7 +153,7 @@ import logo from '../styles/logo.png';
  
   return (
     <Navbar style={{backgroundColor: "#F3F4E2"}} className="mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4 border-none">
-      <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
+      <div className="container mx-auto flex items-center justify-between">
         <Typography
 
           variant="small"
@@ -162,9 +162,6 @@ import logo from '../styles/logo.png';
           <img src={logo}/>
         </Typography>
         <div className="hidden lg:block">{navList}</div>
-        {/* <Button variant="gradient" size="sm" className="hidden lg:inline-block">
-          <span>Buy Now</span>
-        </Button> */}
         <IconButton
           variant="text"
           className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
@@ -204,11 +201,11 @@ import logo from '../styles/logo.png';
         </IconButton>
       </div>
       <MobileNav open={openNav}>
-        <div className="container mx-auto">
-          {navList}
-          {/* <Button variant="gradient" size="sm" fullWidth className="mb-2">
-            <span>Buy Now</span>
-          </Button> */}
+        <div className="flex justify-center">
+          <div className="">
+            {navList}
+          </div>
+          
         </div>
       </MobileNav>
     </Navbar>
