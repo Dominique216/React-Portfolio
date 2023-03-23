@@ -6,7 +6,7 @@
 } */
 
 .skills-title {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 200;
     color: #338457;
     margin-bottom: 3%;
@@ -18,8 +18,8 @@
     /* height: 100%;
     width: 50%; */
     /* margin-top: 10%; */
-    height: 600px;
-    width: 600px;
+    height: 800px;
+    width: 800px;
     /* height: fit-content;
     width: fit-content; */
     border: #338457 20px solid;

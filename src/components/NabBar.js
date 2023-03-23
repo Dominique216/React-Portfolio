@@ -157,7 +157,7 @@ import logo from '../styles/logo.png';
         <Typography
 
           variant="small"
-          className="mr-4 cursor-pointer py-1.5 font-normal w-16"
+          className="mr-4 cursor-pointer py-1.5 font-normal w-48"
         >
           <img src={logo}/>
         </Typography>
