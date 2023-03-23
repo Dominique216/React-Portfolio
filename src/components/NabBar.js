@@ -14,6 +14,7 @@ import { faFilePdf } from "@fortawesome/free-regular-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import logo from '../styles/logo.png';
+import resume from "../styles/resume.pdf"
  
 
  function NavBar() {
@@ -132,7 +133,9 @@ import logo from '../styles/logo.png';
             <Menu.Item>
               {({ active }) => (
                 <a
-                  href="#"
+                  href={resume} 
+                  target="_blank"
+                  rel="noreferrer"
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                     'block px-4 py-2 text-sm hover:border-b-2 border-dgreen'
