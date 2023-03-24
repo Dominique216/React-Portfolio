@@ -26,7 +26,7 @@ function Works() {
                     </div>  
                 </div>
             </div>
-                <div data-aos="fade-left" data-aos-offset="500" className='box2 ml-auto text-center sm:w-full md:w-4/5 flex-col-reverse md:flex-row-reverse'>
+                <div data-aos="fade-left" data-aos-offset="500" className='box2 ml-auto text-center sm:w-full md:w-4/5 flex-col-reverse md:flex-row'>
                     <img className="mx-auto" src={TB} alt="tech blog homepage" />
                     <div className="flex flex-col">
                         <h4 className="text-center">Tech Blog</h4>

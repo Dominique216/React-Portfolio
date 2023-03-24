@@ -7,7 +7,7 @@ function Skills() {
     return (
         <div id="skills" className="skills-section">
             <h3 className="skills-title"> Skills and Languages</h3>
-            <div className="flex flex-col md:flex-row w-5/6 mx-auto">
+            <div className="flex flex-col lg:flex-row w-5/6 mx-auto">
             <ul className="ml-8 font-light text-dgreen text-center">
                 <li><h2 className="text-3xl underline">Front End</h2></li>
                 <li className="text-2xl">HTML</li>

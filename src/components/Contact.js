@@ -19,7 +19,7 @@ import AOS from "aos";
 function Contact() {
     AOS.init()
     return(
-        <div data-aos="fade-up" className="h-4/5">
+        <div id="contact" ddata-aos="fade-up" className="h-4/5">
             <h3 className="skills-title mt-5">Contact</h3>
             <div className="text-7xl gap-8 flex justify-center font-light m-8 text-dgreen">
             <Popover 
