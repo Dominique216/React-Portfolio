@@ -15,7 +15,7 @@ function Works() {
         <div id="works" className="works-section">
            <h3 data-aos="fade-up" className="skills-title">Works</h3>
            <div className="background-box"></div> 
-           <div data-aos="fade-right" data-aos-offset="500" className='box1 w-full text-center md:w-4/5 flex-col-reverse md:flex-row-reverse'>
+           <div data-aos="fade-right" data-aos-offset="500" className='box1 w-full text-center lg:w-4/5 flex-col-reverse lg:flex-row-reverse'>
                 <img className="ww mx-auto" src={WW} alt="which word homepage" />
                 <div className="flex flex-col">
                     <h4 className="text-center">WhichWord</h4>
@@ -26,7 +26,7 @@ function Works() {
                     </div>  
                 </div>
             </div>
-                <div data-aos="fade-left" data-aos-offset="500" className='box2 ml-auto text-center sm:w-full md:w-4/5 flex-col-reverse md:flex-row'>
+                <div data-aos="fade-left" data-aos-offset="500" className='box2 ml-auto text-center sm:w-full lg:w-4/5 flex-col-reverse lg:flex-row'>
                     <img className="mx-auto" src={TB} alt="tech blog homepage" />
                     <div className="flex flex-col">
                         <h4 className="text-center">Tech Blog</h4>
@@ -37,7 +37,7 @@ function Works() {
                         </div> 
                     </div>
                 </div>
-           <div data-aos="fade-right" data-aos-offset="500" className='box3 w-full md:w-4/5 text-center flex-col-reverse md:flex-row-reverse'>
+           <div data-aos="fade-right" data-aos-offset="500" className='box3 w-full lg:w-4/5 text-center flex-col-reverse lg:flex-row-reverse'>
                 <img className="mx-auto" src={PP} alt="ProPairs profile page" />
                 <div className="flex flex-col">
                     <h4 className="text-center">ProPairs</h4>
