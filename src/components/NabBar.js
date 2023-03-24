@@ -38,7 +38,7 @@ import resume from "../styles/resume.pdf"
         as="li"
         variant="small"
         // color="#338457"
-        className="p-1 text-xl"
+        className="p-1 text-3xl"
       >
         <a href="#about" className="flex items-center hover:border-b-2 border-dgreen">
           About
@@ -48,7 +48,7 @@ import resume from "../styles/resume.pdf"
         as="li"
         variant="small"
         // color="#338457"
-        className="p-1 text-xl"
+        className="p-1 text-3xl"
       >
         <a href="#skills" className="flex items-center hover:border-b-2 border-dgreen">
           Skills
@@ -58,7 +58,7 @@ import resume from "../styles/resume.pdf"
         as="li"
         variant="small"
         // color="#338457"
-        className="p-1 text-xl"
+        className="p-1 text-3xl"
       >
         <a href="#works" className="flex items-center hover:border-b-2 border-dgreen">
           Works
@@ -68,7 +68,7 @@ import resume from "../styles/resume.pdf"
         as="li"
         variant="small"
         // color="#338457"
-        className="p-1 text-xl"
+        className="p-1 text-3xl"
       >
         <a href="#contact" className="flex items-center hover:border-b-2 border-dgreen">
           Contact
@@ -108,7 +108,7 @@ import resume from "../styles/resume.pdf"
                 rel="noreferrer"
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm hover:border-b-2 border-dgreen'
+                    'block px-4 py-2 text-2xl hover:border-b-2 border-dgreen'
                   )}
                 >
                   <FontAwesomeIcon icon={faGithub}  /> GitHub
@@ -123,7 +123,7 @@ import resume from "../styles/resume.pdf"
                 rel="noreferrer"
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm hover:border-b-2 border-dgreen'
+                    'block px-4 py-2 text-2xl hover:border-b-2 border-dgreen'
                   )}
                 >
                   <FontAwesomeIcon icon={faLinkedin}  /> LinkedIn
@@ -138,7 +138,7 @@ import resume from "../styles/resume.pdf"
                   rel="noreferrer"
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm hover:border-b-2 border-dgreen'
+                    'block px-4 py-2 text-2xl hover:border-b-2 border-dgreen'
                   )}
                 >
                   <FontAwesomeIcon icon={faFilePdf}  /> Resume
@@ -155,8 +155,8 @@ import resume from "../styles/resume.pdf"
   );
  
   return (
-    <Navbar style={{backgroundColor: "#F3F4E2"}} className="mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4 border-none">
-      <div className="container mx-auto flex items-center justify-between">
+    <Navbar style={{backgroundColor: "#F3F4E2"}} className=" py-2 px-4 lg:px-8 lg:py-4 border-none">
+      <div className="w-full flex items-center justify-between overflow-x-hidden">
         <Typography
 
           variant="small"

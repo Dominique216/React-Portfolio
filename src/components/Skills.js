@@ -7,9 +7,8 @@ function Skills() {
     return (
         <div id="skills" className="skills-section">
             <h3 className="skills-title"> Skills and Languages</h3>
-            <div className="flex flex-row w-5/6 mx-auto">
-            
-            <ul className="ml-8 font-light text-dgreen">
+            <div className="flex flex-col md:flex-row w-5/6 mx-auto">
+            <ul className="ml-8 font-light text-dgreen text-center">
                 <li><h2 className="text-3xl underline">Front End</h2></li>
                 <li className="text-2xl">HTML</li>
                 <li className="text-2xl">CSS</li>
@@ -51,7 +50,7 @@ function Skills() {
                 <img className='item2 w-1/5 mx-auto p-1' style={{animationDelay: "-19s"}} alt="vscode icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" />
             </div>
             
-            <ul className="font-light text-dgreen">
+            <ul className="font-light text-dgreen text-center">
                 <li className="text-2xl"><h2 className="text-3xl underline">Back End</h2></li>
                 <li className="text-2xl">Node</li>
                 <li className="text-2xl">Express</li>

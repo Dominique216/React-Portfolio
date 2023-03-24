@@ -15,8 +15,8 @@ function Works() {
         <div id="works" className="works-section">
            <h3 data-aos="fade-up" className="skills-title">Works</h3>
            <div className="background-box"></div> 
-           <div data-aos="fade-right" data-aos-offset="500" className='box1 sm:w-full md:w-4/5'>
-                <img className="ww" src={WW} alt="which word homepage" />
+           <div data-aos="fade-right" data-aos-offset="500" className='box1 w-full text-center md:w-4/5 flex-col-reverse md:flex-row-reverse'>
+                <img className="ww mx-auto" src={WW} alt="which word homepage" />
                 <div className="flex flex-col">
                     <h4 className="text-center">WhichWord</h4>
                     <p className="mr-8">A more user interactive Wordle inspired game that  allows users to choose difficulty level and  play without the 24-hour break. This was created using HTML, CSS, JavaScript, and third party APIs.</p>
@@ -26,8 +26,8 @@ function Works() {
                     </div>  
                 </div>
             </div>
-                <div data-aos="fade-left" data-aos-offset="500" className='box2 ml-auto sm:w-full md:w-4/5 '>
-                    <img src={TB} alt="tech blog homepage" />
+                <div data-aos="fade-left" data-aos-offset="500" className='box2 ml-auto text-center sm:w-full md:w-4/5 flex-col-reverse md:flex-row-reverse'>
+                    <img className="mx-auto" src={TB} alt="tech blog homepage" />
                     <div className="flex flex-col">
                         <h4 className="text-center">Tech Blog</h4>
                         <p className="ml-8">A FullStack blog site that requires signup or login. Once logged in, users can view existing posts and comments, add comments, and add, update, or delete their posts. This was made using Node, Express, MySql, Sequelize, Handlebars, and Bootstrap.</p>
@@ -37,8 +37,8 @@ function Works() {
                         </div> 
                     </div>
                 </div>
-           <div data-aos="fade-right" data-aos-offset="500" className='box3 sm:w-full md:w-4/5'>
-                <img src={PP} alt="ProPairs profile page" />
+           <div data-aos="fade-right" data-aos-offset="500" className='box3 w-full md:w-4/5 text-center flex-col-reverse md:flex-row-reverse'>
+                <img className="mx-auto" src={PP} alt="ProPairs profile page" />
                 <div className="flex flex-col">
                     <h4 className="text-center">ProPairs</h4>
                     <p className="mr-8">ProPairs is a FullStack MERN application that evaluates users based on their personality type and generates a rating of how well they will work together with one another based on their Myers-Briggs personality type. It was made using React, Material UI, mongoDB, mongoose, node, and express.</p>

@@ -28,7 +28,7 @@ function About() {
                 <p className="aboutInfo">I'm a graduate of UT Austin's Full Stack Coding Certification program and am looking to start my career in software development. I have experience working with front-end languages and frameworks, back-end languages, databases, building full stack MERN applications, and more.</p>
             </div>
             <div className="avatar-circle">
-                <img className="avatar md:ml-auto md:-mt-8" src ={avatar} alt="avatar"  data-aos="fade-left" data-aos-duration="2000"/>
+                <img className="avatar mx-auto sm:mr-0 sm:-mt-8" src ={avatar} alt="avatar"  data-aos="fade-left" data-aos-duration="2000"/>
             </div>
         </div>
     )
