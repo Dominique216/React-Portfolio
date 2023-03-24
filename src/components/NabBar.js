@@ -156,7 +156,7 @@ import resume from "../styles/resume.pdf"
  
   return (
     <Navbar style={{backgroundColor: "#F3F4E2"}} className=" py-2 px-4 lg:px-8 lg:py-4 border-none">
-      <div className="w-full flex items-center justify-between overflow-x-hidden overflow-visible">
+      <div className="w-full flex items-center justify-between overflow-x-hidden" style={{overflow: 'visible'}}>
         <Typography
 
           variant="small"
