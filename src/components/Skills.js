@@ -5,28 +5,48 @@ import AOS from "aos";
 function Skills() {
     AOS.init()
     return (
-        <div id="skills" className="skills-section">
+        <div id="skills" className="skills-section" data-aos="fade-up">
             <h3 className="skills-title"> Skills and Languages</h3>
-            <div className="flex flex-col lg:flex-row w-5/6 mx-auto">
-            <ul className="ml-8 font-light text-dgreen text-center">
-                <li><h2 className="text-3xl underline">Front End</h2></li>
-                <li className="text-2xl">HTML</li>
-                <li className="text-2xl">CSS</li>
-                <li className="text-2xl">Tailwind</li>
-                <li className="text-2xl">Bootstrap</li>
-                <li className="text-2xl">JavaScript</li>
-                <li className="text-2xl">jQuery</li>
-                <li className="text-2xl">Handlebars</li>
-                <li className="text-2xl">React</li>
-                <li className="text-2xl">Material UI</li>
-                <li className="text-2xl">Figma</li>
-                <li className="text-2xl"><h2 className="text-3xl underline mt-5">Other Skills</h2></li>
-                <li className="text-2xl">GitHub</li>
-                <li className="text-2xl">Third Part Apis</li>
-                <li className="text-2xl">Figma</li>
-                <li className="text-2xl">Heroku</li>
+            <div className="flex flex-col w-full mx-auto">
+            <div className="flex mx-auto flex-col lg:flex-row w-full h-fit mb-8 text-dgreen font-light text-center items-center lg:items-stretch" data-aos="zoom-in">
+                <div className="w-1/4 border border-dgreen bg-lgreen/50 rounded mx-2 mb-2">
+                    <h2 className="text-3xl underline">Front End</h2>
+                    <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto">HTML</p>
+                    <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto">CSS</p>
+                    <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto">Bootstrap</p>
+                    <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto">Tailwind</p>
+                    <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto">JavaScript</p>
+                    <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto">jQuery</p>
+                    <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto">Handlebars</p>
+                    <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto">React</p>
+                    <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto">Material UI</p>
+                </div>
                 
-            </ul>
+                <div className="w-1/4 border border-dgreen bg-lgreen/50 rounded mx-2 mb-2">
+                    <h2 className="text-3xl underline">Back End</h2>
+                    <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto">Node</p>
+                    <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto">Express</p>
+                    <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto">MySQL</p>
+                    <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto">Sequelize</p>
+                    <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto">MongoDB</p>
+                    <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto"> Mongoose</p>
+                </div>
+                <div className="w-1/4 border border-dgreen bg-lgreen/50 rounded mx-2 mb-2">
+                    <h2 className="text-3xl underline">Other Skills</h2>
+                    <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto">GitHub</p>
+                    <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto">Third Part Apis</p>
+                    <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto">Figma</p>
+                    <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto">Heroku</p>
+                </div>
+                <div className="w-1/4 border border-dgreen bg-lgreen/50 rounded mx-2 mb-2 p-1">
+                    <h2 className="text-3xl underline ">Concepts</h2>
+                    <p className="text-2xl rounded-full bg-green/50 w-fit px-2 my-2 mx-auto">Object Oriented Programing</p>
+                    <p className="text-2xl rounded-full bg-green/50 w-fit px-2 my-2 mx-auto">Objec-Relational Mapping</p>
+                    <p className="text-2xl rounded-full bg-green/50 w-fit px-2 my-2 mx-auto">Model-View-Controller</p>
+                    <p className="text-2xl rounded-full bg-green/50 w-fit px-1 my-2 mx-auto">Progressive web Applications</p>
+                    <p className="text-2xl rounded-full bg-green/50 w-fit px-2 my-2 mx-auto">MERN Applications</p>
+                </div>
+            </div>
             <div className="skills-circle rounded-full">
                 <div className="center mx-auto"></div>
                 <img className='item w-1/5 mx-auto p-1' style={{animationDelay: "-1s"}} alt="html icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
@@ -49,23 +69,6 @@ function Skills() {
                 <img className='item2 w-1/5 mx-auto p-1' style={{animationDelay: "-18s"}} alt="npm icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
                 <img className='item2 w-1/5 mx-auto p-1' style={{animationDelay: "-19s"}} alt="vscode icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg" />
             </div>
-            
-            <ul className="font-light text-dgreen text-center">
-                <li className="text-2xl"><h2 className="text-3xl underline">Back End</h2></li>
-                <li className="text-2xl">Node</li>
-                <li className="text-2xl">Express</li>
-                <li className="text-2xl">MySQL</li>
-                <li className="text-2xl">Sequelize</li>
-                <li className="text-2xl">MongoDB</li>
-                <li className="text-2xl">Mongoose</li>
-                <li className="text-2xl"><h2 className="text-3xl underline mt-5">Concepts</h2></li>
-                <li className="text-2xl">Object Oriented Programing</li>
-                <li className="text-2xl">Objec-Relational Mapping</li>
-                <li className="text-2xl">Model-View-Controller</li>
-                <li className="text-2xl">Progressive web Applications</li>
-                <li className="text-2xl">MERN Applications</li>
-
-            </ul>
             </div>
             <div className="h-48"></div>
         </div>
