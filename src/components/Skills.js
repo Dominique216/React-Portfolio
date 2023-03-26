@@ -47,7 +47,7 @@ function Skills() {
                     <p className="text-2xl rounded-full bg-green/50 w-fit px-2 my-2 mx-auto">MERN Applications</p>
                 </div>
             </div>
-            <div className="skills-circle rounded-full">
+            <div className="skills-circle rounded-full max-w-5/6">
                 <div className="center mx-auto"></div>
                 <img className='item w-1/5 mx-auto p-1' style={{animationDelay: "-1s"}} alt="html icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
                 <img className='item w-1/5 mx-auto p-1' style={{animationDelay: "-2s"}} alt="css icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
