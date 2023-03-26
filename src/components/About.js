@@ -12,7 +12,7 @@ function About() {
             <div className="circle1 rounded-full w-48 bg-dgreen"></div>
             <div className="circle2"></div>
             <div className="circle3"></div>
-            <div className="info-box sm:w-full md:w-3/4" data-aos="fade-right" data-aos-duration="2000">
+            <div className="info-box w-full lg:w-3/4" data-aos="fade-right" data-aos-duration="2000">
             <div className="name" >
                 <Typewriter
                     onInit={(typewriter)=> {

@@ -9,7 +9,7 @@ function Skills() {
             <h3 className="skills-title"> Skills and Languages</h3>
             <div className="flex flex-col w-full mx-auto">
             <div className="flex mx-auto flex-col lg:flex-row w-full h-fit mb-8 text-dgreen font-light text-center items-center lg:items-stretch" data-aos="zoom-in">
-                <div className="w-1/4 border border-dgreen bg-lgreen/50 rounded mx-2 mb-2">
+                <div className="w-3/5 lg:w-1/4 border border-dgreen bg-lgreen/50 rounded mx-2 mb-2">
                     <h2 className="text-3xl underline">Front End</h2>
                     <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto">HTML</p>
                     <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto">CSS</p>
@@ -22,7 +22,7 @@ function Skills() {
                     <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto">Material UI</p>
                 </div>
                 
-                <div className="w-1/4 border border-dgreen bg-lgreen/50 rounded mx-2 mb-2">
+                <div className="w-3/5 lg:w-1/4 border border-dgreen bg-lgreen/50 rounded mx-2 mb-2">
                     <h2 className="text-3xl underline">Back End</h2>
                     <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto">Node</p>
                     <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto">Express</p>
@@ -31,14 +31,14 @@ function Skills() {
                     <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto">MongoDB</p>
                     <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto"> Mongoose</p>
                 </div>
-                <div className="w-1/4 border border-dgreen bg-lgreen/50 rounded mx-2 mb-2">
+                <div className="w-3/5 lg:w-1/4 border border-dgreen bg-lgreen/50 rounded mx-2 mb-2">
                     <h2 className="text-3xl underline">Other Skills</h2>
                     <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto">GitHub</p>
                     <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto">Third Part Apis</p>
                     <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto">Figma</p>
                     <p className="text-2xl rounded-full bg-green/50 w-fit px-5 my-2 mx-auto">Heroku</p>
                 </div>
-                <div className="w-1/4 border border-dgreen bg-lgreen/50 rounded mx-2 mb-2 p-1">
+                <div className="w-3/5 lg:w-1/4 border border-dgreen bg-lgreen/50 rounded mx-2 mb-2 p-1">
                     <h2 className="text-3xl underline ">Concepts</h2>
                     <p className="text-2xl rounded-full bg-green/50 w-fit px-2 my-2 mx-auto">Object Oriented Programing</p>
                     <p className="text-2xl rounded-full bg-green/50 w-fit px-2 my-2 mx-auto">Objec-Relational Mapping</p>
